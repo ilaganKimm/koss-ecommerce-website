@@ -1,0 +1,44 @@
+
+
+a{
+ text-decoration: none;
+}
+
+
+.category-img{
+    height: 10rem;
+    object-fit: contain;
+}
+
+
+.product-img{
+    height: 12.5rem;
+    object-fit: contain;
+}
+
+.brand-img{
+    height: 3.5rem;
+    object-fit: contain;  
+}
+
+.about-img{
+    object-fit: contain;
+}
+
+.content:hover p {
+    color: mediumseagreen;
+    background-color: aliceblue;
+    transform: scale(1.02);
+}
+
+.category .card .card-body img:hover{
+    transform: scale(1.1);
+}
+
+/*@media screen and (max-width: 769px) {
+    .carousel-item img{
+        height: 400px;
+        width:auto;
+    }
+    
+}*/
